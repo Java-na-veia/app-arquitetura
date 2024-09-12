@@ -1,2 +1,2 @@
 # projeto_integrador
-Projeto integrador do 5º semestre de ADS
+Branch para criação da tela de listagem dos projetos
