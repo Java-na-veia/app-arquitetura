@@ -8,8 +8,14 @@
     android:layout_height="wrap_content"
     android:background="@drawable/layoutfundo"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
+    tools:context=".MainActivity"
+    android:layout_margin="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo: "
+        android:id="@+id/txtIdFuncionario"
+        android:visibility="invisible"/>
     <EditText
         android:id="@+id/edtxtNome"
         android:layout_width="match_parent"
@@ -56,6 +62,8 @@
         android:id="@+id/btnCadastrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Cadastrar" />
+        android:text="Cadastrar"
+        android:onClick="cadastrarFuncionario"/>
+
 
 </LinearLayout>
