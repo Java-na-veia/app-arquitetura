@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable barbara_monteiro_arquiteta_logoaf1
+drawable fundotelaredesocial
+drawable ic_instagram
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_linkedin
+drawable ic_portfolio
+drawable ic_youtube
+id btnInstagram
+id btnLinkedin
+id btnPortfolio
+id btnYoutube
+id main
+id txtTitle
+layout activity_main
+layout activity_social
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string header_image
+string instagram
+string linkedin
+string portfolio
+string youtube
+style Base.Theme.ProjetoGerenciamentoDeArquitertura
+style Theme.ProjetoGerenciamentoDeArquitertura
+xml backup_rules
+xml data_extraction_rules
