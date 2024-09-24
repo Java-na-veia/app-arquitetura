@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.projetoAquitetura.app-mergeReleaseResources-32:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\gllbo\\.gradle\\caches\\transforms-4\\ebb8991d51f3df58d7289dd3601728ce\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.projetoAquitetura.app-mergeDebugResources-32:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\gllbo\\.gradle\\caches\\transforms-4\\ebb8991d51f3df58d7289dd3601728ce\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

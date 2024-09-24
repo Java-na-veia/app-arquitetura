@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.1" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.projetoAquitetura.MainActivity"
+                    boolean="true"/>
+                <entry
+                    name="com.projetoAquitetura.CadastroStatus"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.blue"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="6"
+            column="12"
+            startOffset="185"
+            endLine="6"
+            endColumn="23"
+            endOffset="196"/>
+        <location id="R.color.black"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="62"
+            endLine="3"
+            endColumn="24"
+            endOffset="74"/>
+        <location id="R.color.anil"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="5"
+            column="12"
+            startOffset="146"
+            endLine="5"
+            endColumn="23"
+            endOffset="157"/>
+        <location id="R.string.entrar"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="4"
+            column="13"
+            startOffset="74"
+            endLine="4"
+            endColumn="26"
+            endOffset="87"/>
+        <location id="R.drawable.background"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/background.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="17"
+            endColumn="9"
+            endOffset="301"/>
+        <location id="R.color.tean_700"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="8"
+            column="12"
+            startOffset="263"
+            endLine="8"
+            endColumn="27"
+            endOffset="278"/>
+        <entry
+            name="model"
+            string="color[anil(D),white(U),tean_700(D),azul(U),black(D),blue(D)],drawable[background(D),barb(U),button(D),conteiner_components(U),edit_text(U),ic_launcher_background(U),ic_launcher_foreground(U),ic_launcher_foreground_1(R),log(U)],id[main(U),logo(U),ContainerComponents(U),edit_senha(U),btncadastrastatus(U),progressbar(U),txtIdFuncionario(D),edtxtNome(D),edtxtEmail(D),edtxtTelefone(D),edtxtLogin(D),edtxtSenha(D),edtxtFuncao(D),btnCadastrar(D)],layout[activity_cadastro_status(U),activity_main(D)],mipmap[ic_launcher(U),ic_launcher_round(U)],string[app_name(U),entrar(D),cadastro(D)],style[Theme_ProjetoGerenciamentoDeArquitertura(U),ContainerComponents(U),Edit_Text(U),Edit(R),Button(D),Base_Theme_ProjetoGerenciamentoDeArquitertura(U),Theme_Material3_DayNight_NoActionBar(R)],xml[data_extraction_rules(U),backup_rules(U)];6^0^1^2,8^0^1^2,9^3,a^1,c^d,1d^7^e^10^25^11^26^13,1f^b^c,20^b^c,24^29,25^9,26^27^a,28^6^1,29^2a;;;"/>
+        <location id="R.drawable.button"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/button.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="14"
+            endColumn="9"
+            endOffset="328"/>
+        <location id="R.layout.activity_main"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="67"
+            endColumn="16"
+            endOffset="2118"/>
+        <location id="R.string.cadastro"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="5"
+            column="13"
+            startOffset="119"
+            endLine="5"
+            endColumn="28"
+            endOffset="134"/>
+        <location id="R.style.Button"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/style.xml"
+            line="24"
+            column="12"
+            startOffset="873"
+            endLine="24"
+            endColumn="25"
+            endOffset="886"/>
+    </map>
+
+</incidents>

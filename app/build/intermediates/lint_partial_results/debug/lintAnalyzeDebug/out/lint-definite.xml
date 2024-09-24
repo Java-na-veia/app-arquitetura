@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.5.1" type="incidents">
+
+    <incident
+        id="RedundantNamespace"
+        severity="warning"
+        message="This namespace declaration is redundant">
+        <fix-attribute
+            description="Delete namespace"
+            attribute="xmlns:android"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_cadastro_status.xml"
+            line="9"
+            column="9"
+            startOffset="319"
+            endLine="9"
+            endColumn="67"
+            endOffset="377"/>
+    </incident>
+
+    <incident
+        id="UnusedNamespace"
+        severity="warning"
+        message="Unused namespace declaration xmlns:android; already declared on the root element">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_cadastro_status.xml"
+            line="9"
+            column="9"
+            startOffset="319"
+            endLine="9"
+            endColumn="67"
+            endOffset="377"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                point="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_cadastro_status.xml"
+            line="18"
+            column="10"
+            startOffset="703"
+            endLine="18"
+            endColumn="19"
+            endOffset="712"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_cadastro_status.xml"
+            line="34"
+            column="10"
+            startOffset="1334"
+            endLine="34"
+            endColumn="18"
+            endOffset="1342"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Status&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_cadastro_status.xml"
+            line="37"
+            column="13"
+            startOffset="1433"
+            endLine="37"
+            endColumn="34"
+            endOffset="1454"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Button&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_cadastro_status.xml"
+            line="47"
+            column="13"
+            startOffset="1884"
+            endLine="47"
+            endColumn="34"
+            endOffset="1905"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Codigo: &quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="15"
+            column="9"
+            startOffset="545"
+            endLine="15"
+            endColumn="32"
+            endOffset="568"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="18"
+            column="6"
+            startOffset="658"
+            endLine="18"
+            endColumn="14"
+            endOffset="666"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Nome&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="22"
+            column="9"
+            startOffset="800"
+            endLine="22"
+            endColumn="28"
+            endOffset="819"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="25"
+            column="6"
+            startOffset="872"
+            endLine="25"
+            endColumn="14"
+            endOffset="880"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="29"
+            column="9"
+            startOffset="1015"
+            endLine="29"
+            endColumn="29"
+            endOffset="1035"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="32"
+            column="6"
+            startOffset="1090"
+            endLine="32"
+            endColumn="14"
+            endOffset="1098"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;telefone&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="36"
+            column="9"
+            startOffset="1236"
+            endLine="36"
+            endColumn="32"
+            endOffset="1259"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="39"
+            column="6"
+            startOffset="1303"
+            endLine="39"
+            endColumn="14"
+            endOffset="1311"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Login&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="43"
+            column="9"
+            startOffset="1446"
+            endLine="43"
+            endColumn="29"
+            endOffset="1466"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="46"
+            column="6"
+            startOffset="1509"
+            endLine="46"
+            endColumn="14"
+            endOffset="1517"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Senha&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="50"
+            column="9"
+            startOffset="1652"
+            endLine="50"
+            endColumn="29"
+            endOffset="1672"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="53"
+            column="6"
+            startOffset="1723"
+            endLine="53"
+            endColumn="14"
+            endOffset="1731"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Função&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="57"
+            column="9"
+            startOffset="1867"
+            endLine="57"
+            endColumn="30"
+            endOffset="1888"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Cadastrar&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="64"
+            column="9"
+            startOffset="2074"
+            endLine="64"
+            endColumn="33"
+            endOffset="2098"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for retrofit2-retrofit"
+            robot="true">
+            <fix-replace
+                description="Replace with retrofitVersion = &quot;2.9.0&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="retrofitVersion = &quot;2.9.0&quot;&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/Downloads/app-arquitetura-telaCadastroStatus/app-arquitetura-telaCadastroStatus/gradle/libs.versions.toml"
+                    startOffset="204"
+                    endOffset="204"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with retrofit2-retrofit = { module = &quot;com.squareup.retrofit2:retrofit&quot;, version.ref = &quot;retrofitVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="retrofit2-retrofit = { module = &quot;com.squareup.retrofit2:retrofit&quot;, version.ref = &quot;retrofitVersion&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/Downloads/app-arquitetura-telaCadastroStatus/app-arquitetura-telaCadastroStatus/gradle/libs.versions.toml"
+                    startOffset="1006"
+                    endOffset="1006"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.retrofit2.retrofit"
+                robot="true"
+                replacement="libs.retrofit2.retrofit"
+                priority="0">
+                <range
+                    file="${:app*projectDir}/build.gradle.kts"
+                    startOffset="887"
+                    endOffset="926"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="37"
+            column="20"
+            startOffset="887"
+            endLine="37"
+            endColumn="59"
+            endOffset="926"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for retrofit2-converter-gson"
+            robot="true">
+            <fix-replace
+                description="Replace with converterGsonVersion = &quot;2.9.0&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="converterGsonVersion = &quot;2.9.0&quot;&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/Downloads/app-arquitetura-telaCadastroStatus/app-arquitetura-telaCadastroStatus/gradle/libs.versions.toml"
+                    startOffset="25"
+                    endOffset="25"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with retrofit2-converter-gson = { module = &quot;com.squareup.retrofit2:converter-gson&quot;, version.ref = &quot;converterGsonVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="retrofit2-converter-gson = { module = &quot;com.squareup.retrofit2:converter-gson&quot;, version.ref = &quot;converterGsonVersion&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/Downloads/app-arquitetura-telaCadastroStatus/app-arquitetura-telaCadastroStatus/gradle/libs.versions.toml"
+                    startOffset="1006"
+                    endOffset="1006"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.retrofit2.converter.gson"
+                robot="true"
+                replacement="libs.retrofit2.converter.gson"
+                priority="0">
+                <range
+                    file="${:app*projectDir}/build.gradle.kts"
+                    startOffset="947"
+                    endOffset="992"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="38"
+            column="20"
+            startOffset="947"
+            endLine="38"
+            endColumn="65"
+            endOffset="992"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for google-gson"
+            robot="true">
+            <fix-replace
+                description="Replace with gsonVersion = &quot;2.10.1&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="gsonVersion = &quot;2.10.1&quot;&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/Downloads/app-arquitetura-telaCadastroStatus/app-arquitetura-telaCadastroStatus/gradle/libs.versions.toml"
+                    startOffset="25"
+                    endOffset="25"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with google-gson = { module = &quot;com.google.code.gson:gson&quot;, version.ref = &quot;gsonVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="google-gson = { module = &quot;com.google.code.gson:gson&quot;, version.ref = &quot;gsonVersion&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/Downloads/app-arquitetura-telaCadastroStatus/app-arquitetura-telaCadastroStatus/gradle/libs.versions.toml"
+                    startOffset="217"
+                    endOffset="217"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.google.gson"
+                robot="true"
+                replacement="libs.google.gson"
+                priority="0">
+                <range
+                    file="${:app*projectDir}/build.gradle.kts"
+                    startOffset="1013"
+                    endOffset="1047"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="39"
+            column="20"
+            startOffset="1013"
+            endLine="39"
+            endColumn="54"
+            endOffset="1047"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity than 1.9.1 is available: 1.9.2">
+        <fix-replace
+            description="Change to 1.9.2"
+            family="Update versions"
+            oldString="1.9.1"
+            replacement="1.9.2"
+            priority="0"/>
+        <location
+            file="$HOME/Downloads/app-arquitetura-telaCadastroStatus/app-arquitetura-telaCadastroStatus/gradle/libs.versions.toml"
+            line="8"
+            column="12"
+            startOffset="139"
+            endLine="8"
+            endColumn="19"
+            endOffset="146"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.5.1 is available: 8.6.1. (There is also a newer version of 8.5.𝑥 available, if upgrading to 8.6.1 is difficult: 8.5.2)">
+        <fix-alternatives>
+            <fix-replace
+                description="Change to 8.6.1"
+                family="Update versions"
+                oldString="8.5.1"
+                replacement="8.6.1"
+                priority="0"/>
+            <fix-replace
+                description="Change to 8.5.2"
+                family="Update versions"
+                robot="true"
+                independent="true"
+                oldString="8.5.1"
+                replacement="8.5.2"
+                priority="0"/>
+        </fix-alternatives>
+        <location
+            file="$HOME/Downloads/app-arquitetura-telaCadastroStatus/app-arquitetura-telaCadastroStatus/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.squareup.retrofit2:retrofit than 2.9.0 is available: 2.11.0">
+        <fix-replace
+            description="Change to 2.11.0"
+            family="Update versions"
+            oldString="2.9.0"
+            replacement="2.11.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="37"
+            column="20"
+            startOffset="887"
+            endLine="37"
+            endColumn="59"
+            endOffset="926"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.squareup.retrofit2:converter-gson than 2.9.0 is available: 2.11.0">
+        <fix-replace
+            description="Change to 2.11.0"
+            family="Update versions"
+            oldString="2.9.0"
+            replacement="2.11.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="38"
+            column="20"
+            startOffset="947"
+            endLine="38"
+            endColumn="65"
+            endOffset="992"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/barb.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/barb.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/log.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/log.png"/>
+    </incident>
+
+</incidents>

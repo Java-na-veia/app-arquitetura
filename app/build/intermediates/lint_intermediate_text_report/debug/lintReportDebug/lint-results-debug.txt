@@ -1,0 +1,242 @@
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.5.1 is available: 8.6.1. (There is also a newer version of 8.5.𝑥 available, if upgrading to 8.6.1 is difficult: 8.5.2) [AndroidGradlePluginVersion]
+agp = "8.5.1"
+      ~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.5.1 is available: 8.6.1. (There is also a newer version of 8.5.𝑥 available, if upgrading to 8.6.1 is difficult: 8.5.2) [AndroidGradlePluginVersion]
+agp = "8.5.1"
+      ~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.5.1 is available: 8.6.1. (There is also a newer version of 8.5.𝑥 available, if upgrading to 8.6.1 is difficult: 8.5.2) [AndroidGradlePluginVersion]
+agp = "8.5.1"
+      ~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\build.gradle.kts:37: Warning: A newer version of com.squareup.retrofit2:retrofit than 2.9.0 is available: 2.11.0 [GradleDependency]
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\build.gradle.kts:38: Warning: A newer version of com.squareup.retrofit2:converter-gson than 2.9.0 is available: 2.11.0 [GradleDependency]
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\gradle\libs.versions.toml:8: Warning: A newer version of androidx.activity:activity than 1.9.1 is available: 1.9.2 [GradleDependency]
+activity = "1.9.1"
+           ~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\gradle\libs.versions.toml:8: Warning: A newer version of androidx.activity:activity than 1.9.1 is available: 1.9.2 [GradleDependency]
+activity = "1.9.1"
+           ~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\gradle\libs.versions.toml:8: Warning: A newer version of androidx.activity:activity than 1.9.1 is available: 1.9.2 [GradleDependency]
+activity = "1.9.1"
+           ~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:2: Warning: The resource R.layout.activity_main appears to be unused [UnusedResources]
+<LinearLayout
+^
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\drawable\background.xml:2: Warning: The resource R.drawable.background appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\drawable\button.xml:2: Warning: The resource R.drawable.button appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\values\colors.xml:3: Warning: The resource R.color.black appears to be unused [UnusedResources]
+    <color name="black">#FF000000</color>
+           ~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\values\colors.xml:5: Warning: The resource R.color.anil appears to be unused [UnusedResources]
+    <color name="anil">#0000FF</color>
+           ~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\values\colors.xml:6: Warning: The resource R.color.blue appears to be unused [UnusedResources]
+    <color name="blue">#00008B</color>
+           ~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\values\colors.xml:8: Warning: The resource R.color.tean_700 appears to be unused [UnusedResources]
+    <color name="tean_700">#FF018786</color>
+           ~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\values\strings.xml:4: Warning: The resource R.string.entrar appears to be unused [UnusedResources]
+    <string name="entrar">Verificar</string>
+            ~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\values\strings.xml:5: Warning: The resource R.string.cadastro appears to be unused [UnusedResources]
+    <string name="cadastro">Cadastre-se</string>
+            ~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\values\style.xml:24: Warning: The resource R.style.Button appears to be unused [UnusedResources]
+    <style name="Button">
+           ~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_cadastro_status.xml:9: Warning: This namespace declaration is redundant [RedundantNamespace]
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RedundantNamespace":
+   In Android XML documents, only specify the namespace on the root/document
+   element. Namespace declarations elsewhere in the document are typically
+   accidental leftovers from copy/pasting XML from other files or
+   documentation.
+
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_cadastro_status.xml:9: Warning: Unused namespace declaration xmlns:android; already declared on the root element [UnusedNamespace]
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedNamespace":
+   Unused namespace declarations take up space and require processing that is
+   not necessary
+
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\drawable\barb.png: Warning: Found bitmap drawable res/drawable/barb.png in densityless folder [IconLocation]
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\drawable\log.png: Warning: Found bitmap drawable res/drawable/log.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_cadastro_status.xml:34: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:18: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:25: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:32: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:39: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:46: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:53: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+
+   Explanation for issues of type "Autofill":
+   Specify an autofillHints attribute when targeting SDK version 26 or higher
+   or explicitly specify that the view is not important for autofill. Your app
+   can help an autofill service classify the data correctly by providing the
+   meaning of each view that could be autofillable, such as views representing
+   usernames, passwords, credit card fields, email addresses, etc.
+
+   The hints can have any value, but it is recommended to use predefined
+   values like 'username' for a username or 'creditCardNumber' for a credit
+   card number. For a list of all predefined autofill hint constants, see the
+   AUTOFILL_HINT_ constants in the View reference at
+   https://developer.android.com/reference/android/view/View.html.
+
+   You can mark a view unimportant for autofill by specifying an
+   importantForAutofill attribute on that view or a parent view. See
+   https://developer.android.com/reference/android/view/View.html#setImportant
+   ForAutofill(int).
+
+   https://developer.android.com/guide/topics/text/autofill.html
+
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\build.gradle.kts:37: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\build.gradle.kts:38: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\build.gradle.kts:39: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("com.google.code.gson:gson:2.10.1")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseTomlInstead":
+   If your project is using a libs.versions.toml file, you should place all
+   Gradle dependencies in the TOML file. This lint check looks for version
+   declarations outside of the TOML file and suggests moving them (and in the
+   IDE, provides a quickfix to performing the operation automatically).
+
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_cadastro_status.xml:18: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_cadastro_status.xml:37: Warning: Hardcoded string "Status", should use @string resource [HardcodedText]
+            android:hint="Status"
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_cadastro_status.xml:47: Warning: Hardcoded string "Button", should use @string resource [HardcodedText]
+            android:text="Button"
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:15: Warning: Hardcoded string "Codigo: ", should use @string resource [HardcodedText]
+        android:text="Codigo: "
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:22: Warning: Hardcoded string "Nome", should use @string resource [HardcodedText]
+        android:hint="Nome"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:29: Warning: Hardcoded string "Email", should use @string resource [HardcodedText]
+        android:hint="Email"
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:36: Warning: Hardcoded string "telefone", should use @string resource [HardcodedText]
+        android:hint="telefone"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:43: Warning: Hardcoded string "Login", should use @string resource [HardcodedText]
+        android:hint="Login"
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:50: Warning: Hardcoded string "Senha", should use @string resource [HardcodedText]
+        android:hint="Senha"
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:57: Warning: Hardcoded string "Função", should use @string resource [HardcodedText]
+        android:hint="Função"
+        ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\gllbo\Downloads\app-arquitetura-telaCadastroStatus\app-arquitetura-telaCadastroStatus\app\src\main\res\layout\activity_main.xml:64: Warning: Hardcoded string "Cadastrar", should use @string resource [HardcodedText]
+        android:text="Cadastrar"/>
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 43 warnings
