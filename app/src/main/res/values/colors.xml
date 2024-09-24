@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="anil">#0000FF</color>
+    <color name="blue">#00008B</color>
+    <color name="azul">#89CFF0</color>
+    <color name="tean_700">#FF018786</color>
 </resources>
