@@ -3312,6 +3312,7 @@ id groups
 id header_title
 id hide_ime_id
 id hideable
+id historicoLayout
 id home
 id homeAsUp
 id honorRequest
@@ -3585,13 +3586,14 @@ id transition_transform
 id triangle
 id tvDataInicio
 id tvDataInicioLabel
-id tvEtapaProjeto
+id tvDtcEtapaProjeto
 id tvEtapaProjetoLabel
 id tvItensLayout
 id tvNomeCliente
 id tvNomeClienteLabel
 id tvTipoProjeto
 id tvTipoProjetoLabel
+id tvUsuarioEdit
 id unchecked
 id uniform
 id unlabeled
@@ -3749,6 +3751,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_historico
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

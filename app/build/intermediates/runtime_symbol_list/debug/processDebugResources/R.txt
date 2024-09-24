@@ -3311,6 +3311,7 @@ int id groups 0x7f0800d1
 int id header_title 0x7f0800d2
 int id hide_ime_id 0x7f0800d3
 int id hideable 0x7f0800d4
+int id historicoLayout 0x7f080219
 int id home 0x7f0800d5
 int id homeAsUp 0x7f0800d6
 int id honorRequest 0x7f0800d7
@@ -3584,13 +3585,14 @@ int id transition_transform 0x7f0801e2
 int id triangle 0x7f0801e3
 int id tvDataInicio 0x7f0801e5
 int id tvDataInicioLabel 0x7f0801e6
-int id tvEtapaProjeto 0x7f0801e9
+int id tvDtcEtapaProjeto 0x7f080218
 int id tvEtapaProjetoLabel 0x7f0801ea
 int id tvItensLayout 0x7f080217
 int id tvNomeCliente 0x7f0801ee
 int id tvNomeClienteLabel 0x7f0801ef
 int id tvTipoProjeto 0x7f0801fa
 int id tvTipoProjetoLabel 0x7f0801fb
+int id tvUsuarioEdit 0x7f08021d
 int id unchecked 0x7f0801fc
 int id uniform 0x7f0801fd
 int id unlabeled 0x7f0801fe
@@ -3748,6 +3750,7 @@ int layout design_text_input_end_icon 0x7f0b002c
 int layout design_text_input_start_icon 0x7f0b002d
 int layout ime_base_split_test_activity 0x7f0b002e
 int layout ime_secondary_split_test_activity 0x7f0b002f
+int layout item_historico 0x7f0b006d
 int layout m3_alert_dialog 0x7f0b0030
 int layout m3_alert_dialog_actions 0x7f0b0031
 int layout m3_alert_dialog_title 0x7f0b0032

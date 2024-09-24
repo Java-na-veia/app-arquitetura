@@ -182,23 +182,19 @@
                 android:background="#E0E0E0" />
 
             <!-- Etapa do projeto -->
-            <TextView
-                android:id="@+id/tvEtapaProjetoLabel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Etapa do Projeto"
-                android:textColor="#000000"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/tvEtapaProjeto"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:text="Produção"
-                android:textColor="#616161"
-                android:textSize="16sp" />
+                <LinearLayout
+                    android:id="@+id/historicoLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Campos de status irão aqui -->
+                </LinearLayout>
+            </ScrollView>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
