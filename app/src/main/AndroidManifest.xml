@@ -28,7 +28,11 @@
 
         <!-- Atividade principal -->
         <activity
-            android:name=".MainActivity"
+            android:name=".ConsultaProjetoActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".TelaProjetoActivity"
             android:exported="true">
         </activity>
 

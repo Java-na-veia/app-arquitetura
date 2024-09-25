@@ -28,7 +28,7 @@ import retrofit2.http.POST;
 public class FormLogin extends AppCompatActivity {
 
     private EditText editLogin, editSenha;
-    private Button btnEntrar;
+    private Button btnEntrar, btnConsultaProjeto;
     private ProgressBar progressBar;
 
     @Override
@@ -40,6 +40,7 @@ public class FormLogin extends AppCompatActivity {
         editLogin = findViewById(R.id.edit_login);
         editSenha = findViewById(R.id.edit_senha);
         btnEntrar = findViewById(R.id.bt_entrar);
+        btnConsultaProjeto = findViewById(R.id.btnConsultaProjeto);
         progressBar = findViewById(R.id.progressbar);
 
         // Ação do botão de login
@@ -48,6 +49,14 @@ public class FormLogin extends AppCompatActivity {
             public void onClick(View v) {
                 progressBar.setVisibility(View.VISIBLE);
                 realizarLogin();
+            }
+        });
+
+        btnConsultaProjeto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FormLogin.this, ConsultaProjetoActivity.class);
+                startActivity(intent);
             }
         });
     }
@@ -59,7 +68,7 @@ public class FormLogin extends AppCompatActivity {
 
         // Inicializa Retrofit
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.1.2:8080/") // Apenas a base da URL
+                .baseUrl("http://192.168.1.2:8181/") // Apenas a base da URL
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
