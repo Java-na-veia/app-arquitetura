@@ -8,20 +8,69 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/layoutfundo"
-    android:layout_margin="16dp"
     android:padding="16dp">
-   <androidx.constraintlayout.widget.ConstraintLayout
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:layout_margin="20dp">
 
+    <!-- Campo de pesquisa de funcionário -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
 
-   </androidx.constraintlayout.widget.ConstraintLayout>
+        <!-- EditText para o campo de pesquisa -->
+        <EditText
+            android:id="@+id/edtBuscarFuncionario"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:drawableStart="@android:drawable/ic_menu_search"
+            android:hint="Buscar Funcionário"
+            android:inputType="text"
+            android:padding="12dp"
+            android:background="@color/white"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+            tools:ignore="MissingConstraints" />
+
+        <!-- Botão para realizar a pesquisa -->
+        <Button
+            android:id="@+id/btnBuscarFuncionario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/design_default_color_primary"
+            android:textColor="@android:color/white"
+            android:text="Buscar"
+            android:padding="12dp"
+            app:layout_constraintStart_toEndOf="@+id/edtBuscarFuncionario"
+            app:layout_constraintTop_toTopOf="@+id/edtBuscarFuncionario" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Grupo de RadioButtons -->
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonAtivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ativo" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDesativo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desativado" />
+    </RadioGroup>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycleViewsFuncionarios"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layoutManager="LinearLayoutManager"/>
-
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layoutManager="LinearLayoutManager" />
 
 </LinearLayout>

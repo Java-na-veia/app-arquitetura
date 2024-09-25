@@ -1,12 +1,15 @@
 package com.projetoAquitetura.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.projetoAquitetura.CadastrarFuncionario;
 import com.projetoAquitetura.databinding.PostFuncionarioBinding;
 import com.projetoAquitetura.model.Funcionario;
 
@@ -38,7 +41,6 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.FuncionarioV
     public void onBindViewHolder(@NonNull FuncionarioVH holder, int position) {
         Funcionario funcionario = listaFuncionario.get(position);
 
-        // Verifica se os valores não são nulos antes de definir o texto
         if (funcionario.getIdefuncionario() != null) {
             holder.binding.txtIdFuncionarios.setText("CODIGO: "+funcionario.getIdefuncionario().toString());
         }
@@ -54,6 +56,14 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.FuncionarioV
         if (funcionario.getDeslogin() != null) {
             holder.binding.txtLoginFuncionarios.setText("LOGIN: "+funcionario.getDeslogin());
         }
+        holder.binding.getRoot().setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, CadastrarFuncionario.class);
+                intent.putExtra("funcionario", funcionario);
+                context.startActivity(intent);
+            }
+        });
     }
 
     public static class FuncionarioVH extends RecyclerView.ViewHolder {
@@ -64,4 +74,5 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.FuncionarioV
             this.binding = binding;
         }
     }
+
 }

@@ -6,14 +6,15 @@
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
     android:background="@color/white"
-    app:cardCornerRadius="05dp"
+    app:cardCornerRadius="5dp"
     app:cardElevation="6dp"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:id="@+id/cViewPostFuncionario">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#A1ABB5"
-        android:divider="?android:dividerVertical"
         android:orientation="vertical"
         android:padding="8dp"
         android:showDividers="middle">
@@ -26,40 +27,27 @@
                 android:id="@+id/txtIdFuncionarios"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="16dp"
                 android:text="Código:"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
 
             <TextView
                 android:id="@+id/txtNomeFuncionarios"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="84dp"
                 android:layout_marginTop="16dp"
                 android:text="Nome"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toStartOf="@+id/btnEditarFuncionario"
-                app:layout_constraintHorizontal_bias="0.286"
                 app:layout_constraintStart_toEndOf="@id/txtIdFuncionarios"
                 app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/btnEditarFuncionario"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Editar"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="272dp"
-                tools:layout_editor_absoluteY="0dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
