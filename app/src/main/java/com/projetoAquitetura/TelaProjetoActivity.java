@@ -26,14 +26,14 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class TelaProjetoActivity extends AppCompatActivity {
 
-    private static final String BASE_URL = "http://192.168.1.2:8080/";
+    private static final String BASE_URL = "http://192.168.1.2:8181/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_telaprojeto);
 
-        long projetoId = getIntent().getLongExtra("PROJETO_ID", 11);
+        long projetoId = getIntent().getIntExtra("ideProjeto", 0);
 
         if (projetoId != -1) {
             buscarProjeto(projetoId);
