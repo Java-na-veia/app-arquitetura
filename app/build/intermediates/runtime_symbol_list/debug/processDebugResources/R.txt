@@ -3202,6 +3202,7 @@ int id buttonPanel 0x7f080064
 int id cache_measures 0x7f080065
 int id callMeasure 0x7f080066
 int id cancel_button 0x7f080067
+int id cardViewInfo 0x7f0801fb
 int id carryVelocity 0x7f080068
 int id center 0x7f080069
 int id centerCrop 0x7f08006a
@@ -3312,6 +3313,7 @@ int id groups 0x7f0800d2
 int id header_title 0x7f0800d3
 int id hide_ime_id 0x7f0800d4
 int id hideable 0x7f0800d5
+int id historicoLayout 0x7f0801fc
 int id home 0x7f0800d6
 int id homeAsUp 0x7f0800d7
 int id honorRequest 0x7f0800d8
@@ -3480,6 +3482,7 @@ int id scroll 0x7f08017a
 int id scrollIndicatorDown 0x7f08017b
 int id scrollIndicatorUp 0x7f08017c
 int id scrollView 0x7f08017d
+int id scrollViewTipoProjeto 0x7f0801fd
 int id scrollable 0x7f08017e
 int id search_badge 0x7f08017f
 int id search_bar 0x7f080180
@@ -3582,6 +3585,16 @@ int id transition_position 0x7f0801e0
 int id transition_scene_layoutid_cache 0x7f0801e1
 int id transition_transform 0x7f0801e2
 int id triangle 0x7f0801e3
+int id tvDataInicio 0x7f0801fe
+int id tvDataInicioLabel 0x7f0801ff
+int id tvDtcEtapaProjeto 0x7f080200
+int id tvEtapaProjetoLabel 0x7f080201
+int id tvItensLayout 0x7f080202
+int id tvNomeCliente 0x7f080203
+int id tvNomeClienteLabel 0x7f080204
+int id tvTipoProjeto 0x7f080205
+int id tvTipoProjetoLabel 0x7f080206
+int id tvUsuarioEdit 0x7f080207
 int id unchecked 0x7f0801e4
 int id uniform 0x7f0801e5
 int id unlabeled 0x7f0801e6
@@ -3720,6 +3733,7 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_main 0x7f0b001c
+int layout activity_telaprojeto 0x7f0b006d
 int layout consulta_projeto 0x7f0b001d
 int layout custom_dialog 0x7f0b001e
 int layout design_bottom_navigation_item 0x7f0b001f
@@ -3739,6 +3753,7 @@ int layout design_text_input_end_icon 0x7f0b002c
 int layout design_text_input_start_icon 0x7f0b002d
 int layout ime_base_split_test_activity 0x7f0b002e
 int layout ime_secondary_split_test_activity 0x7f0b002f
+int layout item_historico 0x7f0b006e
 int layout m3_alert_dialog 0x7f0b0030
 int layout m3_alert_dialog_actions 0x7f0b0031
 int layout m3_alert_dialog_title 0x7f0b0032

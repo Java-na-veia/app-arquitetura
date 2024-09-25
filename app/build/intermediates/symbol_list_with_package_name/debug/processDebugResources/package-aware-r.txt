@@ -3203,6 +3203,7 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cardViewInfo
 id carryVelocity
 id center
 id centerCrop
@@ -3313,6 +3314,7 @@ id groups
 id header_title
 id hide_ime_id
 id hideable
+id historicoLayout
 id home
 id homeAsUp
 id honorRequest
@@ -3481,6 +3483,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollViewTipoProjeto
 id scrollable
 id search_badge
 id search_bar
@@ -3583,6 +3586,16 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvDataInicio
+id tvDataInicioLabel
+id tvDtcEtapaProjeto
+id tvEtapaProjetoLabel
+id tvItensLayout
+id tvNomeCliente
+id tvNomeClienteLabel
+id tvTipoProjeto
+id tvTipoProjetoLabel
+id tvUsuarioEdit
 id unchecked
 id uniform
 id unlabeled
@@ -3721,6 +3734,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_telaprojeto
 layout consulta_projeto
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3740,6 +3754,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_historico
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
